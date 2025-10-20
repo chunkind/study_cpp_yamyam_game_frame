@@ -1,5 +1,7 @@
 #pragma once
-class yaApplication
+class Application
 {
+public:
+	void test();
 };
 

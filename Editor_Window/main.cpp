@@ -5,6 +5,11 @@
 #include "Editor_Window.h"
 #include "CommonInclude.h"
 
+#include "..\\YamYamEngine_SOURCE\\yaApplication.h"
+
+#pragma comment(lib, "..\\x64\\Debug\\")
+
+Application app;
 
 #define MAX_LOADSTRING 100
 
@@ -29,6 +34,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, // 프로그램의 인스턴스 
     UNREFERENCED_PARAMETER(lpCmdLine);
 
     // 깃허브 테스트
+    app.test();
 
     // TODO: 여기에 코드를 입력합니다.
 

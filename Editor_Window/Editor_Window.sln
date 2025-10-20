@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Editor_Window", "Editor_Window.vcxproj", "{1A214EE8-38CB-4E3F-914C-94A588F5C3D5}"
 EndProject
@@ -39,5 +39,9 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A17F90A9-60CA-43EC-8C8F-071DD15CEFFF}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\YamYamEngine_SOURCE\YamYamEngine_SOURCE.vcxitems*{09fd58b9-8e21-4af3-9455-92d972deec19}*SharedItemsImports = 9
+		..\YamYamEngine_SOURCE\YamYamEngine_SOURCE.vcxitems*{d6b72330-4f71-4437-b6a3-6bc75bf9fb39}*SharedItemsImports = 4
 	EndGlobalSection
 EndGlobal
